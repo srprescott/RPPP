@@ -60,7 +60,7 @@ div ul li{
     padding: 20px 0;
     margin:50px 0;
     border-radius: 20px;
-    background-color:#FF1919;
+    border:5px solid #FF1919;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -75,6 +75,10 @@ div ul li{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.dancer{
+    max-width: 400px;
 }
 
 .list{
