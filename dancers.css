@@ -8,6 +8,10 @@
     color: white;
 }
 
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+}
+
 .row{
     background-color:#FF1919;
     /* font-weight: bolder; */
@@ -73,12 +77,13 @@ li{
     padding-top:8px;
 }
 
-.footer p a:link{
+.ackn a{
     color:white;
 }
 
-.link{
+.ackn a:hover{
     color:white;
+    text-decoration: overline;
 }
 
 /* EVERYTHING BELOW THIS LINE FOR FRAMEWORK */

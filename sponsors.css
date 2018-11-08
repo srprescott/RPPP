@@ -117,8 +117,13 @@ div ul li{
     padding-top:8px;
 }
 
-.link{
+.ackn a{
     color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
 }
 
 /* EVERYTHING BELOW THIS LINE FOR FRAMEWORK */

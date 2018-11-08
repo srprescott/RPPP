@@ -5,6 +5,13 @@
     font-family: 'Architects Daughter', cursive;
 }
 
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+
 .row{
     background-color:#FF1919;
     /* font-weight: bolder; */
@@ -213,12 +220,13 @@ li{
     padding-top:8px;
 }
 
-.footer p a:link{
+.ackn a{
     color:white;
 }
 
-.link{
+.ackn a:hover{
     color:white;
+    text-decoration: overline;
 }
 
 @media screen and (min-width: 320px) and (max-width:580px) {

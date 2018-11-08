@@ -163,12 +163,13 @@ li{
     padding-top:8px;
 }
 
-.footer p a:link{
+.ackn a{
     color:white;
 }
 
-.link{
+.ackn a:hover{
     color:white;
+    text-decoration: overline;
 }
 
 @media screen and (min-width: 320px) and (max-width:580px) {

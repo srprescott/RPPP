@@ -138,7 +138,7 @@ li{
     border-radius: 10px;
     font-size: 1.6em;
     color: white;
-    width:500px;
+    width:800px;
 }
 
 span{
@@ -147,24 +147,16 @@ span{
 
 .inner{
     border-radius: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
     text-align: center;
 }
 
+.inner a{
+    color:#FFF200;
+}
 
-
+.inner a:hover{
+    color:white;
+}
 
 
 
@@ -276,8 +268,14 @@ span{
     padding-top:8px;
 }
 
-.footer p a:link{
+.ackn a{
     color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
+    color:#FFF200;
 }
 
 
