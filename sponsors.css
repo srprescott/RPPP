@@ -57,10 +57,26 @@ div ul li{
 /* EVERYTHING ABOVE THIS LINE FOR FRAMEWORK */
 
 
+/*  SECTION 2019 */
+
+.sponsors-2019{
+    color:white;
+}
+
+span a{
+    color: #FFF200;
+}
+
+span a:hover{
+    color:white;
+}
 
 
 
-/*  SECTION HALF TWO */
+
+
+
+/*  SECTION 2018 */
 
 .sponsor{
     font-family: 'Architects Daughter', cursive;
