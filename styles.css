@@ -113,14 +113,13 @@ span a:hover{
 }
 
 .spon{
-    width:20%;
+    height: auto;
     margin:20px;
     -webkit-box-shadow: 3px 3px 3px #0A1123;
     box-shadow: 3px 3px 3px #0A1123;
 }
 
 .ruben{
-   width:50%;
     margin:20px;
     -webkit-box-shadow: 3px 3px 3px #0A1123;
     box-shadow: 3px 3px 3px #0A1123;
