@@ -110,6 +110,7 @@ span a:hover{
 .silver, .other{
     color:white;
     font-weight: 500;
+    
 }
 
 .spon{
@@ -121,6 +122,7 @@ span a:hover{
 
 .contrib{
     margin: 20px 0;
+    max-width: 100%;
 }
 
 .ruben{
@@ -315,7 +317,6 @@ span{
     body {
         width: 50%;
     }
-    
 }
 
 @media screen and (max-width:640px) {
@@ -331,6 +332,7 @@ span{
     .spon{
         width:50%;
     }
+    
 }
 
 @media screen and (max-width:320px) {
@@ -354,4 +356,5 @@ span{
     .spon{
         width:50%;
     }
+    
 }

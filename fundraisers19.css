@@ -123,6 +123,7 @@ li{
 }
 
 .invitation{
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -251,6 +252,35 @@ li{
     text-decoration: overline;
 }
 
+
+
+
+
+
+
+
+.gallery{
+    margin: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.image-fund{
+    margin: 5px;
+}
+
+
+
+
+
+
 @media screen and (min-width: 320px) and (max-width:580px) {
     #page {
         background: url("images/flyer.jpg") repeat-x;
@@ -277,6 +307,16 @@ li{
     .spon{
         width:50%;
     }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -298,6 +338,16 @@ li{
     }
     .spon{
         width:50%;
+    }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
     }
 }
 
@@ -324,5 +374,15 @@ li{
     }
     .spon{
         width:50%;
+    }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
     }
 }
