@@ -144,7 +144,7 @@ li{
 .flyer{
     height:100%;
     width:100%;
-    margin:2%;
+    margin:2% 0;
 }
 
 .buttons{
@@ -171,6 +171,7 @@ li{
     height:100%;
     border: 4px solid #015A9C;
     margin:10px;
+    border-radius: 15px;
 }
 
 .pay{
@@ -193,6 +194,7 @@ li{
 .paypal{
     background-color:#015A9C;
     width:100%;
+    border-radius: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
