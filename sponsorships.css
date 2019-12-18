@@ -118,6 +118,11 @@ h2 a:hover{
     color:#fff200;
 }
 
+.title{
+    color:white;
+    font-size: 3.5em;
+}
+
 .footer{
     background-color:#FF1919;
     display: -webkit-box;
