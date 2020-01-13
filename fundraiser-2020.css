@@ -191,6 +191,24 @@ li{
     align-items: center;
 }
 
+.invite{
+    background-color:#015A9C;
+    color:white;
+    width:100%;
+    border-radius: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .paypal{
     background-color:#015A9C;
     width:100%;
@@ -209,6 +227,8 @@ li{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+
 
 .table-color{
     color: white;
