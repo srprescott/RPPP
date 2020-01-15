@@ -235,6 +235,10 @@ li{
     font-size: 2.5rem;
 }
 
+.input-color{
+    color:black;
+}
+
 .reserve{
     font-size: 2.5rem;
     font-family: 'Mada', cursive;
