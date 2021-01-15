@@ -63,7 +63,7 @@ li{
     
 }
 
-.sponsor, .winner{
+.sponsor{
     font-family: 'Architects Daughter', cursive;
     margin: 50px 0;
     background-color:#015A9C;
@@ -84,66 +84,8 @@ li{
     -ms-flex-align:center;
     align-items:center;
     text-align: center;
-    color:white;
-    padding: 25px;
+    
 }
-
-.header{
-    font-size: 4rem;
-}
-
-.blurb{
-    font-size: 2.5rem;
-}
-
-.win{
-    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
-    margin: 25px;
-}
-
-.digital{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-}
-
-.video{
-    margin: 50px;
-}
-
-.pics{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: wrap;
-    flex-flow: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-}
-
-.pic-two{
-    padding: 10px;
-}
-
-
-
 
 .silver{
     color:white;
@@ -391,9 +333,6 @@ li{
     body {
         width: 100%;
     }
-    .two{
-        padding:0;
-    }
     .stars{
         height:100%;
         width:100%;
@@ -420,15 +359,6 @@ li{
     .congrats{
         padding: 10px;
         margin: 0;
-    }
-    .pics, .win{
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-        max-width:100%;
-        height:auto;
-    }
-    .pics{
-        margin: 10px;
     }
 }
 
@@ -439,9 +369,6 @@ li{
     body {
         width: 100%;
     }
-    .two{
-        padding:0;
-    }
     .stars{
         height:100%;
         width:100%;
@@ -468,15 +395,6 @@ li{
     .congrats{
         padding: 10px;
         margin: 0;
-    }
-    .pics, .win{
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-        max-width:100%;
-        height:auto;
-    }
-    .pics{
-        margin: 10px;
     }
 }
 
@@ -491,9 +409,6 @@ li{
         padding-top:15%;
         font-size:.5em;
     }
-    .two{
-        padding:0;
-    }
     .stars{
         height:100%;
         width:100%;
@@ -520,15 +435,6 @@ li{
     .congrats{
         padding: 10px;
         margin: 0;
-    }
-    .pics, .win{
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-        max-width:100%;
-        height:auto;
-    }
-    .pics{
-        margin: 10px;
     }
     
 }
