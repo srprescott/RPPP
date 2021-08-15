@@ -59,11 +59,11 @@ li{
     font-family: 'Kalam', cursive;
     margin:40px 0;
     background-color: WHITE;
-    border:5px solid #FF1919;
+    /* border:5px solid #FF1919; */
     color:#015A9C;
     border-radius: 20px;
-    -webkit-box-shadow: 2px 2px 2px black;
-    box-shadow: 3px 3px 3px #333745;
+    /* -webkit-box-shadow: 2px 2px 2px black;
+    box-shadow: 3px 3px 3px #333745; */
 }
 
 .title{

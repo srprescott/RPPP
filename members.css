@@ -79,7 +79,7 @@ li{
 	margin:20px;
 	padding:20px;
     color:white;
-	border:5px solid #FF1919;
+	/* border:5px solid #FF1919; */
     background-color:#015A9C;
     border-radius: 10px;
 	display: -webkit-box;
@@ -106,7 +106,7 @@ li{
 	margin:0 30px 0 30px;
     border-radius:10px;
     color:white;
-    border:5px solid #fff200;
+    /* border:5px solid #FFF200; */
     -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
 }
