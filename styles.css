@@ -91,11 +91,23 @@ span a:hover{
     color:white;
 }
 
-.sponsor{
+.announcement{
+    font-size: 4rem;
+    color:#FF1919;
+    text-align: center;
+    margin: 50px;
+}
+
+.announce{
+    font-size: 3rem;
+    color:white;
+}
+
+.sponsors-block{
     font-family: 'Architects Daughter', cursive;
     margin: 50px 0;
     background-color:#015A9C;
-    border:5px solid #FFF200;
+    color:white;
     border-radius: 10px;
     padding-bottom: 15px;
     display: -webkit-box;
@@ -114,14 +126,20 @@ span a:hover{
     text-align: center;
 }
 
-.silver, .other{
-    color:white;
-    font-weight: 500;
-    
+.sponsors{
+    margin: 50px;
 }
 
+
 .spon{
-    width: 30%;
+    width: 40%;
+    margin:20px;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+}
+
+.spon-dif{
+    width:50%;
     margin:20px;
     -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
@@ -132,12 +150,6 @@ span a:hover{
     max-width: 100%;
 }
 
-.ruben{
-    height: 50%;
-    margin:20px;
-    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
-}
 
 
 
@@ -348,6 +360,9 @@ span{
     img{
         width:100%;
     }
+    .spon, .spon-dif{
+        width:100%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -360,8 +375,8 @@ span{
     .save{
         width:75%;
     }
-    .spon{
-        width:50%;
+    .spon, .spon-dif{
+        width:100%;
     }
     img{
         width:100%;
@@ -386,8 +401,8 @@ span{
         width:100%;
         padding:0;
     }
-    .spon{
-        width:50%;
+    .spon, .spon-dif{
+        width:100%;
     }
     img{
         width:100%;
