@@ -123,6 +123,73 @@ li{
     margin: 50px;
 }
 
+
+.announcement{
+    font-size: 4rem;
+    color:#FF1919;
+    text-align: center;
+    margin: 50px;
+}
+
+.announce{
+    font-size: 3rem;
+    color:white;
+}
+
+
+.sponsors-block{
+    font-family: 'Architects Daughter', cursive;
+    margin: 50px 0;
+    background-color:#015A9C;
+    color:white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.sponsors{
+    margin: 50px;
+}
+
+
+.spon{
+    width: 40%;
+    margin:20px;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+}
+
+.spon-dif{
+    width:50%;
+    margin:20px;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+}
+
+.contrib{
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
 .pics{
     display: -webkit-box;
     display: -ms-flexbox;

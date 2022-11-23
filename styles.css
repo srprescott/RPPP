@@ -171,23 +171,47 @@ span a:hover{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color:#015A9C;
+    color: white;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+    border-radius: 10px;
 }
 
-.save-the-date-2021{
+.save-the-date-2022{
     font-size: 3rem;
-    padding: 50px;
-    color: #015A9C;
+    padding: 25px;
 }
 
 .save{
-    
     padding:20px;
-    border:5px solid #FFF200;
-    background-color:#015A9C;
-    border-radius: 10px;
-    font-size: 1.6em;
     color: white;
     width:800px;
+}
+
+
+
+.header{
+    font-size: 3rem;
+}
+
+.invite{
+    width:100%;
+}
+
+
+
+
+
+
+.blurb{
+    font-size: 2.5rem;
+}
+
+.win{
+    margin: 25px;
+    width: auto;
 }
 
 span{
